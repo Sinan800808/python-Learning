@@ -1,3 +1,6 @@
+'''
+這原本是書裡的練習-擊球遊戲-後來我修改成打磚塊
+'''
 from tkinter import *
 from random import *
 import time

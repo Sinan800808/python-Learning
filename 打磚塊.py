@@ -55,14 +55,12 @@ class Ball:
                         self.y = step
                         self.bricks.delBricks(bricksPos[0])
                         del self.bricksPosDict[0][bricksPos[0]]
-                        #logging.debug('接觸1 球上磚塊下')
                         break
                 if ballPos[3] >= bricksPos[1][1] and ballPos[3] <= bricksPos[1][3]:
                     if ballPos[2] >= bricksPos[1][0] and ballPos[0] <= bricksPos[1][2]:
                         self.y = -step
                         self.bricks.delBricks(bricksPos[0])
-                        del self.bricksPosDict[0][bricksPos[0]]
-                        #logging.debug('接觸2 球下磚塊上')
+                        del self.bricksPosDict[0][bricksPos[0]]                
                         break
             
 class Racket:

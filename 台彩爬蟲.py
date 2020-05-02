@@ -218,5 +218,4 @@ class Number(Color_scroll):
 
 
 if __name__ == "__main__":
-    # Color_scroll().Requests()
     Number()
